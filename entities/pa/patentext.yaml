@@ -13,7 +13,7 @@ profile:
   summary: Patentext helps technical companies build and manage patent portfolios, from identifying patentable work through drafting, filing, and prosecution.
   description: Patentext provides an AI-enabled patent platform and USPTO-registered patent services for identifying inventions, filing applications, and managing portfolios.
   links:
-    site: https://www.patentext.com/
+    site: https://patentext.com/
 sources:
   - source_id: src_806d9ea57f54c3a57992a86147d746f6b1a14e019529f831c50525b4ed74fd40
     url: https://www.patentext.com/startup-program/
@@ -38,7 +38,7 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: Selected companies receive 50% off eligible Patentext platform fees during their first year, with the discount capped at $3,000.
+        description: The company receives 50% off eligible Patentext platform fees during its first year, up to $3,000.
       benefits:
         - benefit_id: ben_01
           description: 50% off eligible Patentext platform fees during the first year, up to $3,000.
