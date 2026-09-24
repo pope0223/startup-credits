@@ -24,7 +24,7 @@ programs:
     program_slug: scyverge-startup-program
     program_slug_aliases: []
     title: Scyverge Startup Program
-    summary: The Scyverge Startup Program gives approved early-stage startups service credits, a free security roadmap, and free security awareness training.
+    summary: The Scyverge Startup Program gives qualifying early-stage startups access to expert cybersecurity services, funded credits, and hands-on guidance.
     source_ids:
       - src_5d89a2bfc9582f0040464b68a973f3a8d0404b4901c5fd32c85e5b5e50d2b0d5
 offers:
@@ -40,7 +40,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: $1,000 in Scyverge service credits redeemable on any service, including VAPT, compliance readiness, and AI security reviews, valid for 12 months
+          description: $1,000 in Scyverge service credits redeemable across VAPT, compliance readiness, AI security reviews, and more, valid for 12 months.
           duration:
             kind: exact
             value: P1Y
@@ -51,43 +51,19 @@ offers:
               minor_units: 100000
             kind: exact
         - benefit_id: ben_02
-          description: A personalized security roadmap with a gap assessment, prioritized action plan, and expert-led advisory session, at no cost
-          kind: free-service
-          service: Startup security roadmap
+          description: A personalised, actionable cybersecurity roadmap built for the startup's stage, stack, and risk profile, at zero cost.
+          kind: other
         - benefit_id: ben_03
-          description: A live instructor-led security awareness training session for up to 50 team members, with a certificate of completion
-          kind: free-service
-          service: Security awareness training
+          description: A live, instructor-led security awareness training session for the whole team, up to 50 team members.
+          kind: other
       consideration:
         kind: none
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: external-verification
-            statement: The applicant is a registered company or LLP in India or an internationally incorporated company.
-          - criterion_id: cri_02
-            fact: company.age_months
-            kind: predicate
-            operator: lte
-            statement: The startup was incorporated within the last 7 years.
-            value:
-              type: number
-              value: 84
-          - criterion_id: cri_03
-            kind: manual
-            reason: external-verification
-            statement: Annual revenue is under INR 25 crore or the equivalent.
-          - criterion_id: cri_04
-            kind: manual
-            reason: external-verification
-            statement: The startup is not a Scyverge partner or affiliate and has no existing commercial relationship with Scyverge.
-          - criterion_id: cri_05
-            kind: manual
-            reason: vendor-discretion
-            statement: Scyverge reviews applications on a rolling basis and communicates decisions within 3 to 5 business days.
+        kind: manual
+        criterion_id: cri_01
+        reason: external-verification
+        statement: A registered company or LLP in India or an internationally incorporated company, incorporated within the last 7 years, with annual revenue under ₹25 crore (or equivalent), that is not a Scyverge partner or affiliate.
     roles:
       terms_authority_entity_id: ent_01m11hnzy6tmah0tv0s4p5w26z
       access_operator_entity_id: ent_01m11hnzy6tmah0tv0s4p5w26z
